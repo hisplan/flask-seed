@@ -1,6 +1,6 @@
 # flask-seed
 
-## Prerequisits
+## Prerequisites
 
 ```bash
 $ sudo pip install flask
@@ -13,6 +13,8 @@ $ export FLASK_APP=my_web.py
 $ export FLASK_DEBUG=1
 $ flask run --port 5000
 ```
+
+`FLASK_DEBUG=1` makes the server reload itself on code changes and provides with a helpful debugger.
 
 ## Unit Test
 
