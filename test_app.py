@@ -4,7 +4,7 @@ import tempfile
 import my_web
 
 
-class FlaskrTestCase(unittest.TestCase):
+class MyWebTestCase(unittest.TestCase):
 
     def setUp(self):        
         self.app = my_web.app.test_client()
